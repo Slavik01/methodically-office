@@ -1,0 +1,198 @@
+!!! 5
+%head
+	%meta{charset: "utf-8"}
+	%title vanya
+	%link{href: "stylesheets/style.css", rel: "stylesheet"}
+	%link{href: "stylesheets/animation.css", rel: "stylesheet"}
+	%link{href: "//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css", rel: "stylesheet"}
+	%link{href: "http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css", rel: "stylesheet"}
+.site_block
+	%header
+		.logo
+			%h1 Invite.io
+		.desc
+			%p Лучшие дизайн-проекты, эксперименты от креативных кодеров, подборки фотографий — представляем вам 38 сайтов, которые вдохновляют
+	.menu{:id => "menu"}
+		%ul
+			%li{:class => "active"}
+				%a Главная
+			%li
+				%a Конкурсы
+			%input{type:'search', placeholder:'Search'}
+			%button{:class => "new"} Добавить
+			%button{:class => "about"} О нас
+	.work{:id => "block"}
+		.block
+			.title
+				%h1 javascript
+				%button{:class => 'etc'} Еще
+				%i{:class => "fa fa-arrows"}
+				%i{:class => "fa fa-trash-o"}
+			.post{style: "background:#146bb2"}
+				%span{:class => "center"}
+				%img{src: "images/lib/jq_3.png"}
+				.info
+					.c_m
+						%button{:class => 'CDN_b popup-link-1'}
+							%span copy
+							%span{:class => 'load'}
+						%button
+							%span info
+				.popup{:id => "popup-1"}
+					.window
+						%p haha
+			.post
+				%span{:class => "center"}
+				%img{src: "images/lib/dojo_b.png"}
+				.info
+					.c_m
+						%button{:class => 'CDN_b popup-link-2'}
+							%span copy
+							%span{:class => 'load'}
+						%button
+							%span info
+				.popup{:id => "popup-2"}
+					.window
+						%p this
+			.post{style: "background:#fea620"}
+				%span{:class => "center"}
+				%img{src: "images/lib/jq_ui.png"}
+				.info
+					.c_m
+						%button{:class => 'CDN_b popup-link-3'}
+							%span copy
+							%span{:class => 'load'}
+						%button
+							%span info
+				.popup{:id => "popup-3"}
+					.window
+						%p this
+			.post{style: "background:#415cae"}
+				%span{:class => "center"}
+				%img{src: "images/lib/ext-core.png"}
+				.info
+					.c_m
+						%button{:class => 'CDN_b'}
+							%span copy
+							%span{:class => 'load'}
+						%button
+							%span info
+		.block
+			.title
+				%h1 css
+				%button{:class => 'etc'} Еще
+				%i{:class => "fa fa-arrows"}
+				%i{:class => "fa fa-trash-o"}
+			.post{style: "background:#563b7e"}
+				%span{:class => "center"}
+				%img{src: "images/lib/bot.png"}
+				.info
+					.c_m
+						%button{:class => 'CDN_b'}
+							%span copy
+							%span{:class => 'load'}
+						%button
+							%span info
+			.post{style: "background:#2e7bc4"}
+				%span{:class => "center"}
+				%img{src: "images/lib/Gumby.png"}
+				.info
+					.c_m
+						%button{:class => 'CDN_b'}
+							%span copy
+							%span{:class => 'load'}
+						%button
+							%span info
+			.post{style: "background:#ff007f"}
+				%span{:class => "center"}
+				%img{src: "images/lib/susy.png"}
+				.info
+					.c_m
+						%button{:class => 'CDN_b'}
+							%span copy
+							%span{:class => 'load'}
+						%button
+							%span info
+			.post{style: "background:#fff"}
+				%span{:class => "center"}
+				%img{src: "images/lib/amazium.png"}
+				.info
+					.c_m
+						%button{:class => 'CDN_b'}
+							%span copy
+							%span{:class => 'load'}
+						%button
+							%span info
+		.block
+			.title
+				%h1 другие
+				%button{:class => 'etc'} Еще
+				%i{:class => "fa fa-arrows"}
+				%i{:class => "fa fa-trash-o"}
+			.post{style: "background:#b32739"}
+				%span{:class => "center"}
+				%img{src: "images/lib/rails.png"}
+				.info
+					.c_m
+						%button{:class => 'CDN_b'}
+							%span copy
+							%span{:class => 'load'}
+						%button
+							%span info
+			.post{style: "background:#3a9c3c"}
+				%span{:class => "center"}
+				%img{src: "images/lib/merb.png"}
+				.info
+					.c_m
+						%button{:class => 'CDN_b'}
+							%span copy
+							%span{:class => 'load'}
+						%button
+							%span info
+			.post{style: "background:#f4513a"}
+				%span{:class => "center"}
+				%img{src: "images/lib/laravel.png"}
+				.info
+					.c_m
+						%button{:class => 'CDN_b'}
+							%span copy
+							%span{:class => 'load'}
+						%button
+							%span info
+			.post{style: "background:#333333"}
+				%span{:class => "center"}
+				%img{src: "images/lib/Phalcon.png"}
+				.info
+					.c_m
+						%button{:class => 'CDN_b'}
+							%span copy
+							%span{:class => 'load'}
+						%button
+							%span info
+		.block
+			.title
+				%h1 CMS
+				%button{:class => 'etc'} Еще
+				%i{:class => "fa fa-arrows"}
+				%i{:class => "fa fa-trash-o"}
+			.min_post
+				%img{src: "images/lib/craft.png"}
+			.min_post
+				%img{src: "images/lib/cloudcannon.png"}
+			.min_post
+				%img{src: "images/lib/buckets.png"}
+			.min_post
+				%img{src: "images/lib/wordpress.png"}
+			.min_post
+				%img{src: "images/lib/ghost.jpg"}
+			.min_post
+				%img{src: "images/lib/pagekit.jpg"}
+%footer © slavik harkov
+%script{:type => "text/javascript",
+        :src  => "http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"}
+%script{:type => "text/javascript",
+        :src  => "http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"}
+%script{:type => "text/javascript",
+        :src  => "js/index.js"}
+%script{:type => "text/javascript",
+        :src  => "js/zeroclipboard/dist/ZeroClipboard.js"}
